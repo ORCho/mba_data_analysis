@@ -38,11 +38,17 @@ And then git add to the remote repo onto the github. Then setup git page.
 
 The biggest problem I met is failing to deploy the webpage. After check several turorials, following the link : 
 [linked phrase](https://github.com/zabore/tutorials/blob/master/_site.yml)
-The big problem is add following code
+The big problem is add following code. 
 
 ```
 output_dir: "."
 ```
+
+other tutorials
+[linked phrase](https://pjbartlein.github.io/REarthSysSci/project.html)
+
+[linked phrase](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
+
 
 
 
