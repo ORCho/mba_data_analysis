@@ -4,3 +4,46 @@ title: About
 ---
 
 This is my documantation for MBA class.
+
+The tutorials and problems that I have used and met when I built and deployed this project webpage. 
+
+Video to setup this prject. 
+
+[linked phrase](https://www.youtube.com/watch?v=0GjUWgl03vA)
+
+Basiclly, I add three additional files,
+
+_site.Rmd, index.Rmd, about.Rmd
+
+into my project. And use library(rmarkdown)
+
+Then use build tab to configure build tools. or use code 
+
+```
+rmarkdown::render_site()
+```
+
+Make sure to restart the Rstudio after configuration. 
+
+Then go to the upright panel to find build tab, click build website. 
+the window will give feedback as bellow
+
+```
+Output created: index.html
+```
+
+And then git add to the remote repo onto the github. Then setup git page. 
+
+### Problems 
+
+The biggest problem I met is failing to deploy the webpage. After check several turorials, following the link : 
+[linked phrase](https://github.com/zabore/tutorials/blob/master/_site.yml)
+The big problem is add following code
+
+```
+output_dir: "."
+```
+
+
+
+
