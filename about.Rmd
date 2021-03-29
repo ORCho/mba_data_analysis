@@ -1,0 +1,6 @@
+---
+title: About
+
+---
+
+This is my documantation for MBA class.

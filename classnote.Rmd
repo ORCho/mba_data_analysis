@@ -1,0 +1,48 @@
+---
+title: "R Notebook"
+---
+
+
+R for Data Science
+https://r4ds.had.co.nz/tidy-data.html
+
+R tutorial -- Statistics
+https://www.r-bloggers.com/2009/11/r-tutorial-series-summary-and-descriptive-statistics/
+
+R-notebook
+https://www.r-bloggers.com/2017/03/why-i-love-r-notebooks-2/
+
+Rmarkdown-Definitive Guide
+https://bookdown.org/yihui/rmarkdown/
+
+Shiny-flexdashboard
+https://shiny.rstudio.com/articles/dashboards.html
+
+
+Module 3 Readings
+Recommended Readings
+R For Data Science 5 - Data Transformation: https://r4ds.had.co.nz/transform.html
+R For Data Science 19- Functions: https://r4ds.had.co.nz/functions.html
+Optional Readings
+Using Dates and Times in R: https://www.r-bloggers.com/using-dates-and-times-in-r/  
+Cats are great and so is the forcats package : https://www.r-bloggers.com/cats-are-great-and-so-is-the-forcats-r-package/  Online help and documentation for R packages: https://cloud.r-project.org/ and https://www.rdocumentation.org/
+
+
+Data Source
+![alt text](assets/1.png)
+
+### factor 
+Factor is a string save as number. Example, if male appear first in the file, it would be assign 1 by the system. 
+
+### Dry code VS  wet code
+function setup
+
+#### helpful website
+r-project
+rdocumentation.org
+### type of data
+char
+num
+factor
+use class() to check the type
+
