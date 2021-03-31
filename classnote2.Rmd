@@ -1,0 +1,68 @@
+---
+title: "classnote2"
+
+---
+
+# Week3
+## Logical Type and Relational Operators
+
+```
+is.na(NA) #Returns true
+20 != 40
+# %in% 
+2 %in% v1 #true
+!2 %in% v1#f
+
+
+#use functions to select rows and columns
+#a logical vector with TRUE, FALSE, or NA for each row
+ldf <- df[df$Price > 15,] # from the idea df[1:5,1:2]
+
+brdf <- df[df$Category %in% c('Beef', 'Rice'),] 
+```
+
+Then we can summary this vector 
+```
+summary(factor(brdf$Category))
+
+```
+Beef  | Rice
+----- | -----
+670  | 335
+
+
+## Character Strings
+
+1. First install package stringr
+```
+install.packages('stringr')
+```
+2. load the package
+
+3. calculate length
+```
+str_length(testString)
+j17i$lineItemLength <- str_length(j17i$LineItem)
+```
+4. string to low or upper 
+
+```
+str_to_title(testString)
+str_to_lower(testString)
+str_to_upper(testString)
+
+```
+5. detect function
+```
+str_detect(testString, 'his') # case sensitive
+
+j17i$kabob <- str_detect(j17i$lineItemLower, 'kabob') 
+```
+
+6. replace
+
+```
+str_replace(testString, 'so', 'really really')
+```
+
+

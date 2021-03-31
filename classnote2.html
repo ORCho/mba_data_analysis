@@ -11,7 +11,7 @@
 
 
 
-<title>MBA Business Analysis Class 1</title>
+<title>classnote2</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -273,15 +273,76 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">MBA Business Analysis Class 1</h1>
+<h1 class="title toc-ignore">classnote2</h1>
 
 </div>
 
 
-<p>Hi This is a class note that I have made to document all the knowledge that I have learned in my life. Hope this notebook also helps you as well.</p>
-<p>click the link</p>
-<p><a href="./classnote.html">linked phrase</a></p>
-<p><a href="./Untitled.html">linked phrase</a></p>
+<div id="week3" class="section level1">
+<h1>Week3</h1>
+<div id="logical-type-and-relational-operators" class="section level2">
+<h2>Logical Type and Relational Operators</h2>
+<pre><code>is.na(NA) #Returns true
+20 != 40
+# %in% 
+2 %in% v1 #true
+!2 %in% v1#f
+
+
+#use functions to select rows and columns
+#a logical vector with TRUE, FALSE, or NA for each row
+ldf &lt;- df[df$Price &gt; 15,] # from the idea df[1:5,1:2]
+
+brdf &lt;- df[df$Category %in% c(&#39;Beef&#39;, &#39;Rice&#39;),] </code></pre>
+<p>Then we can summary this vector</p>
+<pre><code>summary(factor(brdf$Category))
+</code></pre>
+<table>
+<thead>
+<tr class="header">
+<th>Beef</th>
+<th>Rice</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>670</td>
+<td>335</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="character-strings" class="section level2">
+<h2>Character Strings</h2>
+<ol style="list-style-type: decimal">
+<li>First install package stringr</li>
+</ol>
+<pre><code>install.packages(&#39;stringr&#39;)</code></pre>
+<ol start="2" style="list-style-type: decimal">
+<li><p>load the package</p></li>
+<li><p>calculate length</p></li>
+</ol>
+<pre><code>str_length(testString)
+j17i$lineItemLength &lt;- str_length(j17i$LineItem)</code></pre>
+<ol start="4" style="list-style-type: decimal">
+<li>string to low or upper</li>
+</ol>
+<pre><code>str_to_title(testString)
+str_to_lower(testString)
+str_to_upper(testString)
+</code></pre>
+<ol start="5" style="list-style-type: decimal">
+<li>detect function</li>
+</ol>
+<pre><code>str_detect(testString, &#39;his&#39;) # case sensitive
+
+j17i$kabob &lt;- str_detect(j17i$lineItemLower, &#39;kabob&#39;) </code></pre>
+<ol start="6" style="list-style-type: decimal">
+<li>replace</li>
+</ol>
+<pre><code>str_replace(testString, &#39;so&#39;, &#39;really really&#39;)</code></pre>
+</div>
+</div>
 
 
 

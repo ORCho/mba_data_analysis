@@ -8,8 +8,14 @@ navbar:
     - text: "About"
       href: about.html
     - text: "MBA Business Analysis"
-      href: classnote.html
+      menu:
+      - text: "Week 1"
+        href: classnote.html
+      - text: "Week 3"
+        href: classnote2.html
 output:
   html_document:
     theme: cosmo
     highlight: textmate
+    
+    

@@ -56,7 +56,7 @@ v1 > v4       # Returns a vector with values of FALSE NA
 
 # Business data applications----
 # Read in the data
-df <- read.csv('jan17Items.csv'
+df <- read.csv('module\ 3\ 2/jan17Items.csv'
                , stringsAsFactors = F
                )
 # Identify rows of data that meet a certain condition

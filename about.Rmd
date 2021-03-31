@@ -7,11 +7,11 @@ This is my documantation for MBA class.
 
 The tutorials and problems that I have used and met when I built and deployed this project webpage. 
 
-Video to setup this prject. 
+Video to setup this project. 
 
 [linked phrase](https://www.youtube.com/watch?v=0GjUWgl03vA)
 
-Basiclly, I add three additional files,
+Basically, I add three additional files,
 
 _site.Rmd, index.Rmd, about.Rmd
 
@@ -50,6 +50,6 @@ other tutorials
 [linked phrase](http://nickstrayer.me/RMarkdown_Sites_tutorial/)
 
 
-
+[linked phrase](https://bookdown.org/yihui/rmarkdown/rmarkdown-site.html)
 
 

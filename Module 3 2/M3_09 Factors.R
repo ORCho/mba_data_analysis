@@ -5,7 +5,7 @@
 # meaning of the character string. Factors are a way to retain the intrinsic 
 # meaning, but to store it as a numeric type for analysis. The factor type is
 # really important when you get further into data visualization.
-
+library(lubridate)
 # Coercing to factor----
 x <- c('fox', 'hound', 'hound')     # A character vector
 summary(x)                          # We don't get much information about the  vector
@@ -16,7 +16,7 @@ plot(xf)                            # Quick visual exploration is possible
 
 # You may have noticed the ordered factor type when working with dates----
 # Read in the jan17Items data
-df <- read.csv('jan17Items.csv'
+df <- read.csv('Module\ 3\ 2/jan17Items.csv'
                , stringsAsFactors = F
                )
 df$Time <- lubridate::ymd_hms(df$Time)   # Convert Time to a time type

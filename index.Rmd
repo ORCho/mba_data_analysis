@@ -4,3 +4,11 @@ title: "MBA Business Analysis Class 1"
 ---
 
 Hi This is a class note that I have made to document all the knowledge that I have learned in my life. Hope this notebook also helps you as well. 
+
+
+click the link
+
+[linked phrase](./classnote.html)
+
+[linked phrase](./Untitled.html)
+
